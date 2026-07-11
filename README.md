@@ -1,6 +1,6 @@
 # DCC-MCP Qt UI Inspector
 
-![Workflow showcase](docs/workflow-showcase.png)
+![Workflow showcase](docs/images/dcc-ui-qt-inspector-showcase.webp)
 
 Reusable Qt UI inspection for DCC-MCP.
 
