@@ -1,5 +1,7 @@
 # DCC-MCP Qt UI Inspector
 
+![Workflow showcase](docs/workflow-showcase.png)
+
 Reusable Qt UI inspection for DCC-MCP.
 
 This package exposes the core `qt-ui-inspector` skill as an installable
