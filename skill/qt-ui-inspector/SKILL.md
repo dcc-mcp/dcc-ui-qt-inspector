@@ -7,13 +7,14 @@ description: >-
   (Maya, Blender, Houdini, Unreal, etc.). All tools are read-only and
   lazy-loaded.
 license: MIT
+compatibility: "dcc-mcp-core 0.18+; host-provided qtpy, PySide6, PySide2, PyQt6, or PyQt5"
 metadata:
   dcc-mcp:
     dcc: python
-    version: \"1.0.0\"
+    version: "0.1.0"
     layer: infrastructure
-    search-hint: \"qt ui, qt widgets, gui introspection, find widget, describe widget, list windows, snapshot tree, wait for widget, PySide, PyQt, qtpy\"
-    tags: \"qt, ui, introspection, infrastructure, gui\"
+    search-hint: "qt ui, qt widgets, gui introspection, find widget, describe widget, list windows, snapshot tree, wait for widget, PySide, PyQt, qtpy"
+    tags: [qt, ui, introspection, infrastructure, gui]
     tools: tools.yaml
 ---
 
