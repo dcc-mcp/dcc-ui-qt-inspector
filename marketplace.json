@@ -3,9 +3,9 @@
   "entries": [
     {
       "name": "dcc-ui-qt-inspector",
-      "description": "Reusable Qt UI inspection for DCC-MCP — discover windows, widgets, and selector state across PySide/PyQt hosts",
+      "description": "Read-only Qt inspection for DCC-MCP CUA and UI Control selector discovery",
       "dcc": ["maya", "houdini", "nuke", "substance", "mari", "katana"],
-      "tags": ["ui", "qt", "pyside", "pyqt", "inspection"],
+      "tags": ["ui", "ui-control", "cua", "dcc-cua", "qt", "pyside", "pyqt", "inspection"],
       "version": "0.1.0",
       "install": {
         "type": "git",
