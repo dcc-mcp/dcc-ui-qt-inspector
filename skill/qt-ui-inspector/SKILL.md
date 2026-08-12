@@ -5,15 +5,16 @@ description: >-
   windows, find widgets by name/class, describe widget properties, walk the
   widget tree, and poll for availability. Works in any DCC with a Qt binding
   (Maya, Blender, Houdini, Unreal, etc.). All tools are read-only and
-  lazy-loaded.
+  lazy-loaded. Trigger this helper during CUA, UI Control, or dcc-cua workflows
+  when a Qt selector can replace coordinate discovery.
 license: MIT
-compatibility: "dcc-mcp-core 0.18+; host-provided qtpy, PySide6, PySide2, PyQt6, or PyQt5"
+compatibility: "dcc-mcp-core 0.20+; host-provided qtpy, PySide6, PySide2, PyQt6, or PyQt5"
 metadata:
   dcc-mcp:
     dcc: python
     version: "0.1.0"
     layer: infrastructure
-    search-hint: "qt ui, qt widgets, gui introspection, find widget, describe widget, list windows, snapshot tree, wait for widget, PySide, PyQt, qtpy"
+    search-hint: "CUA, UI Control, dcc-cua, qt ui, qt widgets, gui introspection, find widget, describe widget, list windows, snapshot tree, wait for widget, PySide, PyQt, qtpy"
     tags: [qt, ui, introspection, infrastructure, gui]
     tools: tools.yaml
 ---
@@ -22,6 +23,10 @@ metadata:
 
 Cross-DCC Qt UI introspection tools. All tools lazy-import the host's Qt binding
 (qtpy, PySide6, PySide2, PyQt6, or PyQt5).
+
+This skill is read-only and complements core 0.20 `ui_control__*` tools backed
+by dcc-cua 0.4. It may identify a stable Qt selector before an action, but it
+does not capture the native desktop or inject input.
 
 ## Tools
 
